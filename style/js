@@ -1,0 +1,75 @@
+var numofbuttom = document.querySelectorAll(".drum").length;
+
+// for(var i = 0; i < numofbuttom; i++ ){
+//     document.querySelectorAll(".drum")[i].addEventListener("click", function (){
+//         alert("i got clicked");
+//     });
+// }
+function audio() {
+    // var audio = new Audio("sounds/tom-1.mp3");
+    // audio.play();
+    var bottominnerHTML = this.innerHTML;
+    keysound(bottominnerHTML);
+   
+}
+
+
+for (var i = 0; i < numofbuttom; i++) {
+    document.querySelectorAll(".drum")[i].addEventListener("click", audio);
+}
+
+
+function p(event) {
+
+keysound(event.key);
+
+}
+
+document.addEventListener("keypress",p);
+
+function keysound (key) {
+    switch (key) {
+        case "w":
+            var ton1 = new Audio("sounds/tom-1.mp3");
+            ton1.play();
+            break;
+
+
+        case "a":
+            var audio = new Audio("sounds/tom-2.mp3");
+            audio.play();
+            break;
+
+
+        case "s":
+            var audio = new Audio("sounds/tom-3.mp3");
+            audio.play();
+            break;
+
+
+        case "d":
+            var audio = new Audio("sounds/tom-4.mp3");
+            audio.play();
+            break;
+
+
+        case "j":
+            var audio = new Audio("sounds/snare.mp3");
+            audio.play();
+            break;
+
+
+        case "k":
+            var audio = new Audio("sounds/crash.mp3");
+            audio.play();
+            break;
+
+
+        case "l":
+            var audio = new Audio("sounds/kick-bass.mp3");
+            audio.play();
+            break;
+        default:
+            break;
+    }
+}

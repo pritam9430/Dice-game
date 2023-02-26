@@ -1,0 +1,82 @@
+body{
+    text-align: center;
+    background-color: #4D455D;
+    background-image: url("HQYMeb.webp")
+}
+
+
+.drum{
+    /* height: 100px;
+    width:  100px;
+    margin: 10px; */
+    outline: none;
+    border: 10px solid #404B69;
+    font-size: 5rem;
+    font-family: 'Arvo', cursive;
+    line-height: 2;
+    font-weight: 900;
+    color: #DA0463;
+    text-shadow: 3px 0 #DBEDF3;
+    border-radius: 15px;
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    margin: 10px;
+    background-color: white;
+}
+h1{
+  font-size: 5rem;
+  color: #DBEDF3;
+  font-family: "Arvo", cursive;
+  text-shadow: 3px 0 #DA0463;
+
+}
+h2{
+    font-size: 3rem;
+    color: #DBEDF3;
+    font-family: cursive;
+    text-shadow: 5px;
+}
+.foo{
+    width: 50%;
+    /* border:#DA0463 solid; */
+    margin: auto;
+    
+}
+#tytle{
+    margin-top: 5%;
+    font-family: "montserrat-black";
+    font-size: 5.5rem;
+    line-height: 1;
+    color: #fff;
+
+}
+.cl{
+    color: red;
+}
+.set{
+    margin-top: 10%;
+}
+.w {
+    background-image: url("img/tom1.png");
+  }
+.a{
+background-image: url("img/tom2.png");
+}  
+.s{
+background-image: url("img/tom3.png");
+}
+.d{
+background-image: url("img/tom4.png");
+}
+.j{
+ background-image: url("img/crash.png");   
+}
+
+.k{
+    background-image: url("img/snare.png");
+}
+.l{
+    background-image: url("img/kick.png");
+}
